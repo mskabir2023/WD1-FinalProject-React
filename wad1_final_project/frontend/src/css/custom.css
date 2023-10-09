@@ -1,0 +1,161 @@
+
+body {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+
+.btn-lg-su {
+  letter-spacing: 0.05rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-top:15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.user-form {
+  width: 400px;
+  margin: 30px auto;
+  background-color:white;
+  padding:30px;
+  border-radius:10px;
+}
+
+.form-group label {
+  margin-top:10px;
+  font-size: 20px;
+  float: left;
+}
+
+.errorMessage {
+  font-size: 20px;
+  color:red;
+}
+
+.form-control {
+  line-height: 2.0;
+}
+
+.table {
+  width:1200px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Three columns */
+  gap: 0px; /* Gap between cells */
+  background-color:#fff;
+  margin:auto;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.cell {
+  padding: 10px;
+  text-align: center;
+}
+
+.cell-hd {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.cell-span-all {
+  grid-column: 1 / span 5;
+  margin: 10px;
+  background-color: #fee;
+}
+
+.products {
+  width: 1200px;
+  margin: 30px auto;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.products h2 {
+  text-align: start;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.margin-left {
+  margin-left: 5px;
+}
+
+.checkbox-ctrl {
+  line-height: 0.5;
+  padding-left: 0px;
+  border: none;
+}
+
+.ckbox-container {
+  text-align:left;
+}
+
+footer {
+  margin-top: auto;
+  width: 100%;
+  background-color:#f2f2f2;
+  padding:5px;
+}
+
+.chat-container {
+  width: 600px;
+  margin:30px auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.chat-messages {
+  background-color: #fff;
+  height: 400px;
+  width: 600px;
+  margin: 10px auto;
+  overflow-y: scroll
+}
+
+.chat-messages .question {
+  background-color:#fee;
+  text-align: right;
+  margin: 10px;
+  padding:5px;
+  border-radius: 10px;
+}
+
+.chat-messages .answer {
+  background-color:#efe;
+  text-align: left;
+  margin: 10px;
+  padding:5px;
+  border-radius: 10px;
+}
+
+.question-input {
+  width:80%;
+  left:0px;
+  border:none;
+  height: 50px;
+  padding:5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.chat-container input:focus {
+  outline: none;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.send-btn {
+  width:20%;
+  height: 50px;
+}
+
+.inputarea {
+  padding:5px;
+}
+
+.showInStock {
+  text-align: right;
+  margin-right: 30px;
+}

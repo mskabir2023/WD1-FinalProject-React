@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+/* Menu.css */
+.menu-container {
+  display: flex;
+  justify-content: center;
+  background-color:#f2f2f2;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  padding-top:10px;
+  font-size: 25px;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu li a:hover {
+  font-weight: bold;
+}
+
+/* Styling for the active menu item */
+.active {
+  font-weight: bold;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
